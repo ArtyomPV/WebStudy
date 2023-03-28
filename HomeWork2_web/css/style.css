@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body{
+    font-size: 22px;
+    
+}
+h1, h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family:  'Teddy Bear' sans-serif;
+}
+blockquote{
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 25px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    margin-bottom: 50px;
+}
+.header__links{
+    display: flex;
+    min-height: 122px;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+.header__link a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 15px;
+    padding: 0 20px;
+    
+    
+}
+.header__logo img{
+    height: 100px;
+}
+.main{
+    min-height: calc(100vh - 180px);
+}
+.main__header h1{
+font-size: 35px;
+font-weight: 800;
+text-align: center;
+}
+.main__person{
+    margin-bottom: 50px;
+}
+.main__person h2{
+    font-size: 25px;
+}
+.main__person i{
+    font-style: italic;
+    font-size: 25px;
+}
+
+.main__img{
+    max-width: 50%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+}
+h3{
+    margin-top: 15px;
+    margin-bottom: 15px;text-decoration-line: underline;
+}
+ol {
+	
+	counter-reset: num;
+	margin: 0 0 0 35px;
+	padding: 15px 0 5px 0;
+	font-size: 18px;
+}
+ol li {
+	position: relative;	
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
+}
